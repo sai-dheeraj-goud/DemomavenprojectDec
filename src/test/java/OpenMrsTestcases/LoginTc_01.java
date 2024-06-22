@@ -16,7 +16,7 @@ public class LoginTc_01
 	public void MrsApplicationTestcase01() throws InterruptedException // normal java method
 , AWTException
 	{
-		System.setProperty("webdriver.edge.driver", ".\\driver\\msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver", "C:\\Users\\Admi\\Downloads\\edgedriver_win64 (8)\\msedgedriver.exe");
 		EdgeDriver driver =new EdgeDriver();	
 		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://o3.openmrs.org/");

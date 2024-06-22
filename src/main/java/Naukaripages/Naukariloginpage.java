@@ -25,7 +25,7 @@ public class Naukariloginpage
 	public WebElement Enterpassword;
 	@FindBy(xpath="//button[text()='Login']")
 	public WebElement login;
-	@FindBy(xpath="//*[text()='Complete']")
+	@FindBy(xpath="(//*[@type='submit'])[1]")
 	public WebElement completeprofile;
 	@FindBy(xpath="//em[text()='editOneTheme']")
 	public WebElement pencilbtn;

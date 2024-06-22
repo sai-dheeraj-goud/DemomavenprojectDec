@@ -24,10 +24,10 @@ public class MyINFOTC_01
 	Loginpage lpage =new Loginpage(driver);
 	lpage.LoginintoApp("Admin", "admin123");
 	
-	PIMpage pimpage = new PIMpage();
-	pimpage.Click_onpimbtn();
-	pimpage.Click_onAddbtn();
-	
+//	PIMpage pimpage = new PIMpage();
+//	pimpage.Click_onpimbtn();
+//	pimpage.Click_onAddbtn();
+//	
 	}
 	
 	

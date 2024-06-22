@@ -13,7 +13,7 @@ import pages.orhmeducationpage;
 public class OrangeHrmquqlificationtestcase {
 
 		@Test
-		public void Testcase()
+		public void Testcase() throws InterruptedException
 		{
 		System.setProperty("webdriver.edge.driver", "C:\\Users\\Admin\\Downloads\\edgedriver_win64 (4)\\msedgedriver.exe");
 		EdgeDriver driver =new EdgeDriver();
@@ -22,7 +22,7 @@ public class OrangeHrmquqlificationtestcase {
 		orhmeducationpage epage =  new orhmeducationpage(driver);
 		Loginpage lpage =new Loginpage(driver);
 		lpage.LoginintoApp("Admin", "admin123");
-		@Test
+		
 		epage.click_Qualificationbtn();
 		Thread.sleep(2000);
 		

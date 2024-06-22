@@ -15,7 +15,7 @@ public class LoginTc_01
 	public void Test() throws InterruptedException
 	{
 
-		System.setProperty("webdriver.edge.driver", ".\\driver\\msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver", "C:\\Users\\Admin\\Downloads\\edgedriver_win64 (8)\\msedgedriver.exe");
 		WebDriver driver =new EdgeDriver();	
 		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.naukri.com/");

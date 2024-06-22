@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-03T19:32:45 IST" name="Default suite" finished-at="2023-12-03T19:35:26 IST" duration-ms="160675">
+  <suite started-at="2024-06-22T16:17:46 IST" name="Default suite" finished-at="2024-06-22T16:18:17 IST" duration-ms="31580">
     <groups>
     </groups>
-    <test started-at="2023-12-03T19:32:45 IST" name="Default test" finished-at="2023-12-03T19:35:26 IST" duration-ms="160675">
-      <class name="pimTestcse.Testcasepim">
-        <test-method signature="Testcase()[pri:0, instance:pimTestcse.Testcasepim@702b8b12]" started-at="2023-12-03T19:32:45 IST" name="Testcase" finished-at="2023-12-03T19:34:06 IST" duration-ms="80145" status="PASS">
+    <test started-at="2024-06-22T16:17:46 IST" name="Default test" finished-at="2024-06-22T16:18:17 IST" duration-ms="31580">
+      <class name="NaukariTestcase.LoginTc_01">
+        <test-method signature="Test()[pri:0, instance:NaukariTestcase.LoginTc_01@1cbb87f3]" started-at="2024-06-22T16:17:46 IST" name="Test" finished-at="2024-06-22T16:18:17 IST" duration-ms="31504" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase -->
-        <test-method signature="Testcase()[pri:0, instance:pimTestcse.Testcasepim@702b8b12]" started-at="2023-12-03T19:34:06 IST" name="Testcase" finished-at="2023-12-03T19:35:26 IST" duration-ms="80445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase -->
-      </class> <!-- pimTestcse.Testcasepim -->
+        </test-method> <!-- Test -->
+      </class> <!-- NaukariTestcase.LoginTc_01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

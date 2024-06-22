@@ -23,7 +23,7 @@ public class HomepagenavigationTC_02 {
 //		lpage.enter_password("admin123");
 //		lpage.clickloginbtn();
 		
-		lpage.LogintoApp("Admin", "admin123");
+		lpage.LoginintoApp("Admin", "admin123");
 		
 		//verify hompage is displayed or not
 		
