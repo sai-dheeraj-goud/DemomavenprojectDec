@@ -50,7 +50,7 @@ public class Loginpage
 	@FindBy(xpath="//span[text()='Confirm']")
 	public WebElement confirmbtn;
 //	public WebElement verify;
-	//@FindBy(xpath="//span[text()='Vérifier']")
+	//@FindBy(xpath="//span[text()='VÃ©rifier']")
 	@FindBy(name="AddPatientIcon")
 	public WebElement Addpatient;
 
@@ -113,7 +113,11 @@ public class Loginpage
 		System.out.println("enter user name succesfully");
 		continues.click();
 		password.sendKeys(value);
+
 		System.out.println("enter pwd  succesfully");
+
+		System.out.println("enter pwd1 succesfully");
+
 		loginbtn.click();
 		System.out.println("clicked login succesfully");
 		searchbtn.sendKeys(outpat);
