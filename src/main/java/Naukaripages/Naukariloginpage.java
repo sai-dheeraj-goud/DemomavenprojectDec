@@ -90,7 +90,7 @@ public class Naukariloginpage
 	
 	public void Click_onupdatename(String name) throws InterruptedException
 	{
-		Thread.sleep(4000);
+		Thread.sleep(9000);
 		updatename.clear();
 		Thread.sleep(4000);
 		updatename.sendKeys(name);
