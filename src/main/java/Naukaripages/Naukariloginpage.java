@@ -91,13 +91,7 @@ public class Naukariloginpage
 	public void Click_onupdatename(String name) throws InterruptedException
 	{
 
-		if(true)
-			{Thread.sleep(9000);
-			}
-		else
-		{
-			Thread.sleep(8000);
-		}
+		Thread.sleep(4000);
 
 		updatename.clear();
 		Thread.sleep(4000);

@@ -113,7 +113,7 @@ public class Loginpage
 		System.out.println("enter user name succesfully");
 		continues.click();
 		password.sendKeys(value);
-		System.out.println("enter password succesfully");
+		System.out.println("enter pwd  succesfully");
 		loginbtn.click();
 		System.out.println("clicked login succesfully");
 		searchbtn.sendKeys(outpat);
