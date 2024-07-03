@@ -4,7 +4,7 @@ public class FirstProgram {
 
 	public static void main(String[] args) {
 		
-		int num=151;
+		int num=153;
 		int sum=0;
 		int rem;
 		int temp = num;
