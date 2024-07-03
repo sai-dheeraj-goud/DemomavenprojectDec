@@ -35,7 +35,7 @@ public class Loginpage
 	@FindBy(id="username |xpath=//*[text()='username']")
 	public WebElement username;
  
-	@FindBy(xpath="//button[text()='Continue'] | id=migtr")
+	@FindBy(xpath="//button[text()='Continue']")
 	public WebElement continues;
 	@FindBy(id="password")
 	public WebElement password;
