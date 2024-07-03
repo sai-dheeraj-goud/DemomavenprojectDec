@@ -32,7 +32,7 @@ public class Loginpage
 
 	public static WebDriver driver;
 
-	@FindBy(id="username")
+	@FindBy(id="username |xpath=//*[text()='username']")
 	public WebElement username;
 
 	@FindBy(xpath="//button[text()='Continue']")
@@ -263,6 +263,7 @@ public class Loginpage
 		click_onAddpatientbtn();
 		click_onYesbtn();
 
+		
 		RandomString r = new RandomString();
 		String randomString = r.make();
 		firstName = firstName + randomString;
