@@ -5,8 +5,8 @@ public class FirstProgram {
 	public static void main(String[] args) {
 
 
-		int num=152;
-		int num1=153;
+		int num=2424;
+		int num1=43253;
 		if(num==152)
 		{
 			int sum1=0;
