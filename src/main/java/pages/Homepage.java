@@ -14,7 +14,9 @@ public WebDriver driver;
 	//1. define all elements with locators
 	//2
 	@FindBy(className="oxd-userdropdown-img")
+
 	public WebElement profileimg;//Sanjeeva
+
 	
 	@FindBy(xpath="//span[text()='Admin']")
 	public WebElement adminmenu;
