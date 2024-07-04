@@ -50,8 +50,10 @@ public WebDriver driver;
 	@FindBy(xpath="//input[@placeholder='Type for hints...']")
 	public WebElement entervalinemp;
 	
-	@FindBy(xpath="//label[text()='Status']/parent::div/following-sibling::div")
+	@FindBy(xpath="//label[text()='Status']/parent::div/following-sibling::div")///parent::div/following-sibling::div")
 	public WebElement statusArrowbtn;
+//	@FindBy(xpath="//label[text()='Status']/parent::div/following-sibling::div")
+//	public WebElement statusArrowbtn;
 
 	
 	//@FindBy(xpath="//input[@class='oxd-input oxd-input--active oxd-input--error']")
