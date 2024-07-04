@@ -47,7 +47,7 @@ public WebDriver driver;
 	@FindBy(xpath="//div[@role='listbox']//*[text()='Admin']")
 	public WebElement selectadmin;
 	
-	@FindBy(xpath="//input[@placeholder='Type for hints...']")
+	@FindBy(xpath="//*[@placeholder='Type for hints...']")
 	public WebElement entervalinemp;
 	
 	@FindBy(xpath="//label[text()='Status']/parent::div/following-sibling::div")///parent::div/following-sibling::div")
