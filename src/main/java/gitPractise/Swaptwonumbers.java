@@ -3,8 +3,8 @@ package gitPractise;
 public class Swaptwonumbers {
 
 	public static void main(String[] args) {
-		int a=20;
-		int b=40;
+		int a=1870;
+		int b=0760;
 		
 		a=a+b;
 		b=a-b;
