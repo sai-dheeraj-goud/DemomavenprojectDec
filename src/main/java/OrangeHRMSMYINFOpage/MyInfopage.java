@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MyInfopage
 {	
-	@FindBy(xpath="//span[text()='My Info']")
+	@FindBy(xpath="//span[text()='My Info']")//Mahendra
 	public WebElement myinfo;
 	@FindBy(name="firstName")
 	public WebElement firstname;
