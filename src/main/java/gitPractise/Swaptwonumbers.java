@@ -4,11 +4,11 @@ public class Swaptwonumbers {
 
 	public static void main(String[] args) {
 
-		int a=10;
+		int a=10;//Mahenfdra
 		int b=20;
 
 		
-		a=a+b;
+		a=a+b;//sanjeeva
 		b=a-b;
 		a=a-b;
 		
