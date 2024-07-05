@@ -4,7 +4,7 @@ public class Swaptwonumbers {
 
 	public static void main(String[] args) {
 
-		int a=10;//Mahenfdra
+		int a=10;//int a=2-03
 		int b=20;
 
 		
