@@ -22,7 +22,11 @@ public class PIMpage
 
 	public static WebDriver driver;
 
+<<<<<<< HEAD
 	@FindBy(xpath="//span[text()='PIM']")//Sanjhfufik
+=======
+	@FindBy(xpath="//span[text()='PIM']")//Maji
+>>>>>>> c505b2bf6a19621533968d5d2555533e7520f219
 	public WebElement pim;
 	@FindBy(xpath="//button[text()=' Add ']")
 	public WebElement Addbtn;
