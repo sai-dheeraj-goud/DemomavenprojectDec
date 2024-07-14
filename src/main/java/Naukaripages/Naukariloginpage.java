@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 //add some file in the Naukari Pages 
 public class Naukariloginpage
-{//mahendra i love you
+{//mahendra
 	public static WebDriver driver;
 	@FindBy(xpath="//a[text()='Login']")
 	public WebElement Loginbtn;
